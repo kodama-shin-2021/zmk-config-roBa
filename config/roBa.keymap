@@ -97,10 +97,10 @@
 
         SYMBOL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&kp PERCENT  &kp DOLLAR  &kp AMPERSAND    &kp SLASH  &kp BACKSLASH                         &kp SQT            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LEFT_BRACE  &kp RIGHT_BRACE
+&kp AT_SIGN  &kp HASH    &kp QUESTION     &kp MINUS  &kp EQUAL      &trans      &kp GRAVE  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI        &kp COLON
+&kp CARET    &kp TILDE   &kp EXCLAMATION  &kp PLUS   &kp ASTRK      &trans      &kp PIPE   &kp LT             &kp GREATER_THAN      &kp COMMA              &kp PERIOD      &kp UNDERSCORE
+&trans       &trans      &trans           &trans     &kp LANG2      &trans      &trans     &trans                                                                          &kp LS(LG(NUMBER_4))
             >;
 
             sensor-bindings = <&scroll_up_down>;
