@@ -31,7 +31,7 @@
             label = "TO_LAYER_0";
         };
 
-        pass: pass {
+        text: pass {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(K) &kp I &kp J &kp U &kp M &kp O &kp N8 &kp N0 &kp UNDER>;
@@ -114,7 +114,7 @@
         ARROW {
             bindings = <
 &kp ESCAPE        &none   &none       &none            &kp LS(LG(T))                      &trans    &kp LA(LEFT)   &kp UP_ARROW  &kp LA(RIGHT)  &trans
-&kp LS(LG(HOME))  &none   &kp DELETE  &kp RIGHT_ARROW  &pass          &trans      &trans  &trans    &kp LEFT       &kp DOWN      &kp RIGHT      &trans
+&kp LS(LG(HOME))  &none   &kp DELETE  &kp RIGHT_ARROW  &text          &trans      &trans  &trans    &kp LEFT       &kp DOWN      &kp RIGHT      &trans
 &kp LEFT_SHIFT    &none   &kp LG(C)   &kp LG(LS(V))    &kp LEFT       &trans      &trans  &kp DOWN  &kp C_AC_HOME  &kp END       &trans         &trans
 &kp LS(LEFT_ALT)  &trans  &trans      &trans           &trans         &trans      &trans  &trans                                                &trans
             >;
