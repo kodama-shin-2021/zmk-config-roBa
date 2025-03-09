@@ -73,6 +73,12 @@
 
             tap-ms = <20>;
         };
+
+        hold_layer5_tap_mouse2: hold_layer5_tap_mouse2 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "HOLD_LAYER3_TAP_MOUSE2";
+            bindings = <&to 5>, <&kp MS_BTN2>;
+        };
     };
 
     keymap {
