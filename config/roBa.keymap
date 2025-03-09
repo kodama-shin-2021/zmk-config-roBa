@@ -67,12 +67,6 @@
 
             tap-ms = <20>;
         };
-
-        hold_layer5_tap_mouse2: hold_layer5_tap_mouse2 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOLD_LAYER3_TAP_MOUSE2";
-            bindings = <&to 5>, <&kp MS_BTN2>;
-        };
     };
 
     keymap {
@@ -82,7 +76,7 @@
             bindings = <
 &kp Q      &kp W         &kp E      &kp R               &kp T                                          &kp Y        &kp U  &lt 5 I   &kp O                    &kp P
 &kp A      &kp S         &kp D      &kp F               &kp G        &kp LG(SPACE)      &kp MINUS      &kp H        &kp J  &kp K     &kp L                    &lt 3 COLON
-&kp Z      &kp X         &kp C      &kp V               &kp B        &kp TAB            &kp BACKSPACE  &kp N        &kp M  &mkp MB1  &hold_layer5_tap_mouse2  &kp RSHIFT
+&kp Z      &kp X         &kp C      &kp V               &kp B        &kp TAB            &kp BACKSPACE  &kp N        &kp M  &mkp MB1  &kp L                    &kp RSHIFT
 &kp LCTRL  &kp LEFT_ALT  &kp LCTRL  &mt LEFT_WIN LANG1  &lt 3 LANG1  &lt 2 SPACE        &lt 2 ENTER    &lt 1 LANG2                                            &kp LC(UP)
             >;
 
