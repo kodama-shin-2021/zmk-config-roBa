@@ -50,6 +50,20 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+
+        pass: pass {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(K) &kp I &kp J &kp U &kp M &kp O &kp N8 &kp N0 &kp UNDER>;
+            label = "PASS";
+        };
+
+        layer_test: layer_test {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mo 5 &mkp MB2>;
+            label = "LAYER_TEST";
+        };
     };
 
     behaviors {
@@ -119,10 +133,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE        &none   &none       &none            &trans                        &trans    &kp LA(LEFT)   &kp UP_ARROW  &kp LA(RIGHT)  &trans
-&kp LS(LG(HOME))  &none   &kp DELETE  &kp RIGHT_ARROW  &kp END   &trans      &trans  &trans    &kp LEFT       &kp DOWN      &kp RIGHT      &trans
-&kp LEFT_SHIFT    &none   &kp LG(C)   &kp LG(LS(V))    &kp LEFT  &trans      &trans  &kp DOWN  &kp C_AC_HOME  &kp END       &trans         &trans
-&kp LS(LEFT_ALT)  &trans  &trans      &trans           &trans    &trans      &trans  &trans                                                &trans
+&kp ESCAPE        &none   &none       &none            &kp LS(LG(T))                      &trans    &kp LA(LEFT)   &kp UP_ARROW  &kp LA(RIGHT)  &trans
+&kp LS(LG(HOME))  &none   &kp DELETE  &kp RIGHT_ARROW  &pass          &trans      &trans  &trans    &kp LEFT       &kp DOWN      &kp RIGHT      &trans
+&kp LEFT_SHIFT    &none   &kp LG(C)   &kp LG(LS(V))    &kp LEFT       &trans      &trans  &kp DOWN  &kp C_AC_HOME  &kp END       &trans         &trans
+&kp LS(LEFT_ALT)  &trans  &trans      &trans           &trans         &trans      &trans  &trans                                                &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -139,10 +153,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                             &trans                 &kp LC(LEFT)          &kp LC(RIGHT)          &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans         &kp LG(CARET)          &kp LG(LA(LEFT))      &kp LA(LG(RIGHT))      &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LG(MINUS)  &kp LS(LG(SEMICOLON))  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &none   &kp LEFT_ALT
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LG(LS(R))  &kp LG(W)                                                                   &trans
             >;
         };
 
