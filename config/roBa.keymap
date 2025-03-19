@@ -112,7 +112,7 @@
 &kp PERCENT  &kp DOLLAR  &kp AMPERSAND    &kp SLASH  &kp BACKSLASH                         &kp SQT            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LEFT_BRACE  &kp RIGHT_BRACE
 &kp AT_SIGN  &kp HASH    &kp QUESTION     &kp MINUS  &kp EQUAL      &trans      &kp GRAVE  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI        &kp COLON
 &kp CARET    &kp TILDE   &kp EXCLAMATION  &kp PLUS   &kp ASTRK      &trans      &kp PIPE   &kp LT             &kp GREATER_THAN      &kp COMMA              &kp PERIOD      &kp UNDERSCORE
-&trans       &trans      &trans           &trans     &kp LANG2      &trans      &trans     &trans                                                                          &kp LS(LG(NUMBER_4))
+&trans       &trans      &trans           &trans     &kp LANG1      &trans      &trans     &trans                                                                          &kp LS(LG(NUMBER_4))
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -142,10 +142,10 @@
 
         MOUSE {
             bindings = <
-&to_layer_0 Q  &to_layer_0 E  &to_layer_0 E  &to_layer_0 R  &to_layer_0 T                      &to_layer_0 Y  &to_layer_0 U  &to_layer_0 I  &to_layer_0 O           &to_layer_0 P
-&to_layer_0 A  &to_layer_0 S  &to_layer_0 D  &to_layer_0 F  &to_layer_0 G  &trans      &trans  &to_layer_0 H  &mkp MB1       &mkp MB2       &mouce_and_layer 5 MB3  &lt 3 COLON
-&to_layer_0 Z  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V  &to_layer_0 B  &trans      &trans  &to_layer_0 N  &to_layer_0 M  &mkp MB1       &trans                  &to_layer_0 RIGHT_SHIFT
-&trans         &trans         &trans         &trans         &trans         &trans      &trans  &trans                                                               &to_layer_0 LC(UP_ARROW)
+&to_layer_0 Q  &to_layer_0 E  &to_layer_0 E  &to_layer_0 R           &to_layer_0 T                                 &to_layer_0 Y           &to_layer_0 U  &to_layer_0 I  &to_layer_0 O           &to_layer_0 P
+&to_layer_0 A  &to_layer_0 S  &to_layer_0 D  &to_layer_0 F           &to_layer_0 G  &trans      &trans             &to_layer_0 H           &mkp MB1       &mkp MB2       &mouce_and_layer 5 MB3  &lt 3 COLON
+&to_layer_0 Z  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V           &to_layer_0 B  &trans      &trans             &to_layer_0 N           &to_layer_0 M  &mkp MB1       &trans                  &to_layer_0 RIGHT_SHIFT
+&trans         &trans         &trans         &to_layer_0 LANGUAGE_2  &to 3          &to 2       &to_layer_0 ENTER  &to_layer_0 LANGUAGE_1                                                        &to_layer_0 LC(UP_ARROW)
             >;
         };
 
