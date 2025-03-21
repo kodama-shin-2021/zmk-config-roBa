@@ -63,11 +63,10 @@
         to_layer_0_2: to_layer_0_2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>,
-                <&mo 2>,
+            bindings = <&macro_press &mo 2>,
                 <&macro_pause_for_release>,
-                <&macro_release>,
-                <&to 0>;
+                <&macro_release &mo 2>,
+                <&macro_tap &to 0>;
             label = "TO_LAYER_0_2";
         };
 
@@ -78,29 +77,27 @@
                 <&mo 3>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&to 0>;
+                <&macro_tap &to 0>;
             label = "TO_LAYER_0_3";
         };
 
         to_layer_0_5: to_layer_0_5 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>,
-                <&mo 5>,
+            bindings = <&macro_press &mo 5>,
                 <&macro_pause_for_release>,
-                <&macro_release>,
-                <&to 0>;
+                <&macro_release &mo 5>,
+                <&macro_tap &to 0>;
             label = "TO_LAYER_0_5";
         };
 
         to_layer_0_win: to_layer_0_win {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>,
-                <&to 0>,
-                <&kp LEFT_WIN>,
+            bindings = <&macro_press &mo 0 &kp LEFT_WIN>,
                 <&macro_pause_for_release>,
-                <&macro_release>;
+                <&macro_release &mo 0 &kp LEFT_WIN>,
+                <&macro_tap &to 0>;
             label = "TO_LAYER_0_win";
         };
 
