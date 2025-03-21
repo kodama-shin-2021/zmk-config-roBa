@@ -60,11 +60,11 @@
             label = "MKP_EXIT_AML";
         };
 
-        to_layer_0_2: to_layer_0_layer {
+        to_layer_0_2: to_layer_0_2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&lt 2 SPACE &to 0>;
-            label = "TO_LAYER_0_LAYER";
+            label = "TO_LAYER_0_2";
         };
 
         to_layer_0_3: to_layer_0_3 {
