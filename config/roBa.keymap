@@ -62,6 +62,7 @@
 
         to_layer_0_2: to_layer_0_2 {
             compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
             bindings = <&macro_press>,
                 <&mo 2>,
                 <&macro_pause_for_release>,
@@ -71,6 +72,8 @@
         };
 
         to_layer_0_3: to_layer_0_3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
             bindings = <&macro_press>,
                 <&mo 3>,
                 <&macro_pause_for_release>,
@@ -80,6 +83,8 @@
         };
 
         to_layer_0_5: to_layer_0_5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
             bindings = <&macro_press>,
                 <&mo 5>,
                 <&macro_pause_for_release>,
@@ -89,6 +94,8 @@
         };
 
         to_layer_0_win: to_layer_0_win {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
             bindings = <&macro_press>,
                 <&to 0>,
                 <&kp LEFT_WIN>,
