@@ -201,7 +201,7 @@
 
         NUM {
             bindings = <
-&kp ESC               &kp LS(LG(LEFT))            &kp LS(LG(UP_ARROW))  &kp LS(LG(RIGHT))      &kp LA(LG(LEFT_BRACKET))                                               &kp PLUS   &kp N7        &kp N8        &kp N9        &kp COMMA
+&kp ESC               &kp LS(LG(LEFT))            &kp LS(LG(UP_ARROW))  &kp LS(LG(RIGHT))      &kp LG(LS(LEFT_BRACKET))                                               &kp PLUS   &kp N7        &kp N8        &kp N9        &kp COMMA
 &kp LA(LC(LG(UP)))    &kp LA(LC(LG(RIGHT)))       &kp LG(LS(LA(LEFT)))  &kp LS(LA(LG(RIGHT)))  &kp LS(LA(LG(L)))         &kp LG(LS(LA(L)))                 &kp SPACE  &kp MINUS  &kp N4        &kp N5        &kp NUMBER_6  &kp COLON
 &kp LC(LA(LG(LEFT)))  &kp LC(LA(LG(DOWN_ARROW)))  &trans                &trans                 &kp LS(LG(LA(L)))         &kp LS(LA(LG(LEFT_BRACKET)))      &trans     &kp SLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0
 &trans                &kp LEFT_WIN                &trans                &trans                 &trans                    &trans                            &trans     &trans                                               &kp PERIOD
@@ -213,7 +213,7 @@
         ARROW {
             bindings = <
 &kp ESCAPE        &none   &none       &none            &kp LS(LG(T))                                 &trans    &kp LA(LEFT)   &kp UP_ARROW  &kp LA(RIGHT)  &trans
-&kp LS(LG(HOME))  &none   &kp DELETE  &kp RIGHT_ARROW  &text          &kp C_VOLUME_UP        &trans  &trans    &kp LEFT       &kp DOWN      &kp RIGHT      &trans
+&kp LS(LG(A))     &none   &kp DELETE  &kp RIGHT_ARROW  &text          &kp C_VOLUME_UP        &trans  &trans    &kp LEFT       &kp DOWN      &kp RIGHT      &trans
 &kp LEFT_SHIFT    &none   &kp LG(C)   &kp LG(LS(V))    &kp LEFT       &kp C_VOLUME_DOWN      &trans  &kp DOWN  &kp C_AC_HOME  &kp END       &trans         &trans
 &kp LS(LEFT_ALT)  &trans  &trans      &trans           &trans         &trans                 &trans  &trans                                                &trans
             >;
