@@ -228,10 +228,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE        &none   &none       &none            &kp LS(LG(T))                                 &trans        &kp LA(LEFT)   &kp UP_ARROW  &kp LA(RIGHT)  &trans
-&kp LS(LG(A))     &none   &kp DELETE  &kp RIGHT_ARROW  &text          &kp C_VOLUME_UP        &trans  &kp LEFT_ALT  &kp LEFT       &kp DOWN      &kp RIGHT      &trans
-&kp LEFT_SHIFT    &none   &kp LG(C)   &kp LG(LS(V))    &kp LEFT       &kp C_VOLUME_DOWN      &trans  &kp DOWN      &kp C_AC_HOME  &kp END       &trans         &trans
-&kp LS(LEFT_ALT)  &trans  &trans      &trans           &trans         &trans                 &trans  &trans                                                    &trans
+&kp ESCAPE        &none   &none       &none            &kp LS(LG(T))                                 &trans        &kp LA(LEFT)  &kp UP_ARROW  &kp LA(RIGHT)  &trans
+&kp LS(LG(A))     &none   &kp DELETE  &kp RIGHT_ARROW  &text          &kp C_VOLUME_UP        &trans  &kp LEFT_ALT  &kp LEFT      &kp DOWN      &kp RIGHT      &trans
+&kp LEFT_SHIFT    &none   &kp LG(C)   &kp LG(LS(V))    &kp LEFT       &kp C_VOLUME_DOWN      &trans  &kp DOWN      &kp LEFT_ALT  &kp END       &trans         &trans
+&kp LS(LEFT_ALT)  &trans  &trans      &trans           &trans         &trans                 &trans  &trans                                                   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
