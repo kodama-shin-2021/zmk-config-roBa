@@ -207,11 +207,13 @@
 
         MOUSE {
             bindings = <
-&to_layer_0 Q  &to_layer_0 W  &to_layer_0 E  &to_layer_0 R    &to_layer_0 T                                                    &to_layer_0 Y           &to_layer_0 U      &to_layer_0 I      &to_layer_0 O  &to_layer_0 P
-&to_layer_0 A  &to_layer_0 S  &to_layer_0 D  &to_layer_0 F    &to_layer_0 G  &to_layer_0 LG(SPACE)      &to_layer_0 MINUS      &to_layer_0 H           &mkp_exit_AML MB1  &mkp_exit_AML MB2  &to_layer_0_5  &to_layer_0_3
-&to_layer_0 Z  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V    &to_layer_0 B  &to_layer_0 TAB            &to_layer_0 BACKSPACE  &to_layer_0 N           &to_layer_0 M      &mkp MB1           &mo 6          &to_layer_0_shift
-&trans         &trans         &trans         &to_layer_0_win  &to_layer_0_3  &to_layer_0_2              &to_layer_0 ENTER      &to_layer_0 LANGUAGE_1                                                       &to_layer_0 LC(UP_ARROW)
+&trans  &trans  &trans  &trans  &trans                                        &kp LG(TILDE)  &kp LC(LEFT)          &kp LC(RIGHT)          &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp C_VOLUME_UP        &kp LG(MINUS)  &kp LG(PLUS)   &kp LG(LA(LEFT))      &kp LA(LG(RIGHT))      &trans  &kp RIGHT_ALT
+&trans  &trans  &trans  &trans  &trans  &kp C_VOLUME_DOWN      &kp LG(MINUS)  &kp LG(PLUS)   &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &none   &kp LEFT_ALT
+&trans  &trans  &trans  &trans  &trans  &trans                 &kp LG(LS(R))  &kp LG(W)                                                           &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp LG(MINUS) LG(PLUS)>;
         };
 
         NUM {
