@@ -206,10 +206,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans        &trans         &trans                                        &kp LC(UP_ARROW)  &kp LG(LA(LEFT))      &kp LG(LA(RIGHT))       &trans  &trans
-&trans  &trans  &kp LC(LEFT)  &kp LC(RIGHT)  &trans  &kp C_VOLUME_UP        &none          &kp LG(PLUS)      &mkp MB1              &mouce_and_layer 6 MB2  &trans  &lt 5 LC(UP)
-&trans  &trans  &trans        &trans         &trans  &kp C_VOLUME_DOWN      &none          &kp LG(MINUS)     &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)   &none   &kp LS(LG(NUMBER_4))
-&trans  &trans  &trans        &trans         &trans  &trans                 &kp LG(LS(R))  &kp LG(W)                                                               &trans
+&trans          &trans  &trans        &trans         &trans                                        &kp LC(UP_ARROW)  &kp LG(LA(LEFT))      &kp LG(LA(RIGHT))       &trans  &trans
+&trans          &trans  &kp LC(LEFT)  &kp LC(RIGHT)  &trans  &kp C_VOLUME_UP        &none          &kp LG(PLUS)      &mkp MB1              &mouce_and_layer 6 MB2  &trans  &lt 5 LC(UP)
+&kp LEFT_SHIFT  &trans  &trans        &trans         &trans  &kp C_VOLUME_DOWN      &none          &kp LG(MINUS)     &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)   &none   &kp LS(LG(NUMBER_4))
+&trans          &trans  &trans        &trans         &trans  &trans                 &kp LG(LS(R))  &kp LG(W)                                                               &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LG(MINUS) LG(PLUS)>;
