@@ -66,7 +66,6 @@
             compatible = "zmk,behavior-macro-two-param";
             #binding-cells = <2>;
             wait-ms = <0>; // オプション: アクションを即座に実行するための待機時間を0に設定
-            tap-ms = <200>; // タップとホールドを区別するためのタップ時間を設定
             bindings =
                 <&macro_param_1to1>,
                 <&macro_tap>,
@@ -77,7 +76,6 @@
                 <&macro_param_2to1>,
                 <&macro_release>,
                 <&mo MACRO_PLACEHOLDER &to 0>;
-                                 // リリース: レイヤー0に戻す
             label = "TO_LAYER_X_Y";
         };
 
@@ -143,7 +141,6 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <0>; // オプション: アクションを即座に実行するための待機時間を0に設定
-            tap-ms = <200>; // タップとホールドを区別するためのタップ時間を設定
             bindings =
                 <&macro_tap>,
                 <&kp LANGUAGE_2 &to 0>,
@@ -160,7 +157,6 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <0>; // オプション: アクションを即座に実行するための待機時間を0に設定
-            tap-ms = <200>; // タップとホールドを区別するためのタップ時間を設定
             bindings =
                 <&macro_tap>,
                 <&kp LANGUAGE_2 &to 0>,
