@@ -76,6 +76,7 @@
                 <&macro_param_2to1>,
                 <&macro_release>,
                 <&mo MACRO_PLACEHOLDER &to 0>;
+
             label = "TO_LAYER_X_Y";
         };
 
@@ -164,8 +165,7 @@
                 <&kp LEFT_WIN>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&kp LEFT_WIN &to 0>,
-                <&to 0>;
+                <&kp LEFT_WIN &to 0 &to 0>;
 
             label = "TO_LAYER_0_win";
         };
@@ -299,7 +299,7 @@
         SCROLL {
             bindings = <
 &trans  &trans  &trans        &trans         &trans                                        &kp LG(TILDE)  &kp LA(LG(LEFT))      &kp LA(LG(RIGHT))      &trans  &trans
-&trans  &trans  &kp LC(LEFT)  &kp LC(RIGHT)  &trans  &kp C_VOLUME_UP        &none          &kp LEFT_ALT   &kp LEFT_ALT          &none                  &trans  &none
+&trans  &trans  &kp LC(LEFT)  &kp LC(RIGHT)  &trans  &kp C_VOLUME_UP        &none          &kp LG(PLUS)   &kp LEFT_ALT          &none                  &trans  &kp LEFT_ALT
 &trans  &trans  &trans        &trans         &trans  &kp C_VOLUME_DOWN      &none          &kp LG(MINUS)  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &none   &none
 &trans  &trans  &trans        &trans         &trans  &trans                 &kp LG(LS(R))  &kp LG(W)                                                           &trans
             >;
