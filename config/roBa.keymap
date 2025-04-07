@@ -299,7 +299,7 @@
         SCROLL {
             bindings = <
 &trans  &trans  &trans        &trans         &trans                                        &kp LG(TILDE)           &kp LA(LG(LEFT))      &kp LA(LG(RIGHT))      &trans  &trans
-&trans  &trans  &kp LC(LEFT)  &kp LC(RIGHT)  &trans  &kp C_VOLUME_UP        &none          &mt LG(PLUS) RIGHT_ALT  &kp LEFT_ALT          &none                  &trans  &kp LEFT_ALT
+&trans  &trans  &kp LC(LEFT)  &kp LC(RIGHT)  &trans  &kp C_VOLUME_UP        &none          &mt RIGHT_ALT LG(PLUS)  &kp LEFT_ALT          &none                  &trans  &kp LEFT_ALT
 &trans  &trans  &trans        &trans         &trans  &kp C_VOLUME_DOWN      &none          &kp LG(MINUS)           &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &none   &none
 &trans  &trans  &trans        &trans         &trans  &trans                 &kp LG(LS(R))  &kp LG(W)                                                                    &trans
             >;
