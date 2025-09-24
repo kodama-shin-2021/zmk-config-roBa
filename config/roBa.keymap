@@ -10,10 +10,19 @@
 
 &mt {
     flavor = "balanced";
-    quick-tap-ms = <0>;
+    quick-tap-ms = <300>;
+    tapping-term-ms = <150>;
 };
 
 &sl { release-after-ms = <800>; };
+
+&kt {
+};
+
+&lt {
+    tapping-term-ms = <150>;
+    quick-tap-ms = <200>;
+};
 
 / {
     combos {
